@@ -42,7 +42,8 @@ scheme: Muse
 #scheme: Gemini
 
 # Dark Mode
-darkmode: false
+# darkmode: false
+darkmode: true
 
 
 # ---------------------------------------------------------------
@@ -102,8 +103,8 @@ menu_settings:
 
 sidebar:
   # Sidebar Position.
-  position: left
-  #position: right
+  # position: left
+  position: right
 
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
@@ -203,17 +204,20 @@ footer:
   # Icon between year and copyright info.
   icon:
     # Icon name in Font Awesome. See: https://fontawesome.com/icons
-    name: fa fa-heart
+    # name: fa fa-heart
+    name: fas fa-square
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
-    color: "#ff0000"
+    # color: "#ff0000"
+    color: "#424242"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  # powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -372,7 +376,8 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  # scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
