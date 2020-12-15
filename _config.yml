@@ -857,6 +857,12 @@ vendors:
   # Available values: local | jsdelivr | unpkg | cdnjs
   # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
   plugins: jsdelivr
+  #darkmode_js: https://cdn.jsdelivr.net/npm/darkmode-js/lib/darkmode-js.min.js
+  darkmode_js:
+
+# darkmode.js
+darkmode_js: 
+  enable: true
 
   # In the following settings, you can specify the CDN link for each plugin.
   # If left blank, the default CDN provider set by `plugins` option will be used.
@@ -940,3 +946,5 @@ vendors:
 css: css
 js: js
 images: images
+
+
